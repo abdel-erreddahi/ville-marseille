@@ -1,0 +1,156 @@
+*{
+    font-family: 'Roboto mono';
+    padding: 0;
+    margin: 0;
+}
+main{
+   padding: 1.5cm;
+}
+main h3{
+    text-align: center;
+    
+}
+header {
+    
+    top: 0;
+    left: 0;
+    width: 93%;
+    height: 60px;
+    padding: 3rem;
+    background: #163d73;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+.navbar{
+   margin-left: 60px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before {
+    content: '';
+    position:absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+.MAR{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav img{
+    box-shadow: 2px 0px 2px 2px black ;
+    height: 50px; 
+    background-color: transparent;
+    object-fit: cover;
+    justify-content: start;
+    display: flex;   
+}
+.mohammed{
+display: flex;
+align-items: center;
+}
+form{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: -15px;
+    
+}
+
+footer{
+    background: #163d73;
+    text-decoration: none;
+    color: white;  
+
+    
+    
+}
+
+footer h3{
+    font-size:19px ;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+footer .align-block{
+    display: flex;
+    justify-content: space-around;
+}
+.abr{
+    width: 150px;
+    height: 100px;
+ 
+}
+footer .align-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1cm;
+}
+.img-footer1{
+    width: 100px;
+    object-fit: cover;
+    box-shadow:  2px 0px 2px 2px black;
+    height: 60px;
+}
+
+.img-footer2{
+    width: 130px;
+    object-fit: cover;
+    
+}
+    
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .services ul li{
+   
+    list-style-type:none;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer .reseaux{
+    text-align: center;
+    align-items: center;
+    
+}
+
+footer .reseaux ul li{
+    list-style-type: none;
+}
+.img .img1{
+    height: 250px;
+    width: 600px;
+    object-fit: cover;
+    box-shadow: 2px 0px 2px 2px black;
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
