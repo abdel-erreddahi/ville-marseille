@@ -10,7 +10,7 @@ header {
     
     top: 0;
     left: 0;
-    width: 100%;
+    width: 97%;
     height: 60px;
     padding: 3rem;
     background: #163d73;
@@ -19,7 +19,7 @@ header {
     color: white;
 }
 .navbar{
-   margin-left: 60px;
+   margin-left: 25px;
    justify-content: center;
    align-items: center;
    
@@ -101,6 +101,7 @@ footer .align-img{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 1cm;
 }
 .img-footer1{
     width: 100px;
@@ -136,4 +137,40 @@ footer .reseaux{
 
 footer .reseaux ul li{
     list-style-type: none;
+}
+.img .img1{
+    /* height: 250px; */
+    width: 600px;
+    object-fit: cover;
+    box-shadow: 2px 0px 2px 2px black;
+
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 2cm;
+}
+.pos_img{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+}
+.img h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img p {
+    text-align: center;
+    align-items: center;
+}
+
+
+li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
